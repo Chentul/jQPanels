@@ -12,7 +12,7 @@ rb.click(function(){
   m.toggleClass('pactive');
   p.toggleClass('active');
 });
-  m.click(function(){
+  $('.close').click(function(){
     o.removeClass('active');
     p.removeClass('active'); m.removeClass('pactive').removeClass('ractive');
   });
